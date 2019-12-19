@@ -16,6 +16,7 @@ import com.xkcoding.cache.redis.entity.User;
  * @modified: yangkai.shen
  */
 public interface UserService {
+
     /**
      * 保存或修改用户
      *

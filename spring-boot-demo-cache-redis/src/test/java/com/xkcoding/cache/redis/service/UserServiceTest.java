@@ -21,6 +21,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 @Slf4j
 public class UserServiceTest extends SpringBootDemoCacheRedisApplicationTests {
+
     @Autowired
     private UserService userService;
 
