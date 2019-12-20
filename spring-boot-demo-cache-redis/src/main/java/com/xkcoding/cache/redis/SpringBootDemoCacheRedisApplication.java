@@ -8,7 +8,9 @@ import org.springframework.cache.annotation.EnableCaching;
 @SpringBootApplication
 public class SpringBootDemoCacheRedisApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(SpringBootDemoCacheRedisApplication.class, args);
+
+        Thread.currentThread().join();
     }
 }
