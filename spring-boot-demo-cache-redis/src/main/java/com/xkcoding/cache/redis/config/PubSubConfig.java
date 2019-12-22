@@ -26,7 +26,7 @@ import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
  */
 @Slf4j
 @Configuration
-public class PubSubListenerConfig {
+public class PubSubConfig {
 
     /**
      * 默认使用MessageListenerAdapter处理监听单个channel
